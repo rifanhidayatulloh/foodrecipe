@@ -1,0 +1,225 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+/* this is  */
+/* navbar */
+.container .navbar {
+  z-index: 9999;
+  display: flex;
+  width: 100%;
+  position: absolute;
+}
+.container .navbar a {
+  text-decoration: none;
+}
+.container .navbar .primary-menu {
+  width: 80%;
+}
+.container .navbar .primary-menu ul {
+  display: flex;
+}
+.container .navbar .primary-menu ul li {
+  margin: 10px 35px;
+}
+.container .navbar .primary-menu ul li a {
+  color: #2e266f;
+}
+.navbar .primary-menu ul li a:visited {
+  text-decoration: underline;
+}
+/* this is  */
+/* section 1 */
+.container .hero {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 140vh;
+  justify-content: center;
+  align-items: center;
+}
+/* placeholder */
+.hero input[type="text"],
+input[type="url"] {
+  padding-left: 20px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero .input-photo .border {
+  width: 900px;
+  height: 220px;
+  background-color: #f6f5f4;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+.hero .input-photo .border p {
+  font-size: 15px;
+  color: #666666;
+}
+.hero .input-photo .border input {
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.hero .input-title {
+  width: 900px;
+  height: 50px;
+  background-color: #f6f5f4;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+.hero .input-title input {
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 49px;
+  background-color: #f6f5f4;
+  border-radius: 7px;
+}
+.hero .input-title input[type="text"]:focus {
+  outline: none;
+  border: 2px double #efc81a;
+}
+.hero .input-ingredients {
+  width: 900px;
+  height: 220px;
+  background-color: #f6f5f4;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+.hero .input-ingredients textarea {
+  resize: none;
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 220px;
+  background-color: #f6f5f4;
+  border-radius: 7px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .input-ingredients textarea:focus {
+  outline: none;
+  border: 2px double #efc81a;
+}
+.hero .input-video {
+  width: 900px;
+  height: 50px;
+  background-color: #f6f5f4;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+  border-radius: 7px;
+}
+.hero .input-video input {
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 49px;
+  background-color: #f6f5f4;
+  border-radius: 7px;
+}
+.hero .input-video input[type="url"]:focus {
+  outline: none;
+  border: 2px double #efc81a;
+}
+.hero .button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #efc81a;
+  border-radius: 7px;
+}
+.hero .button button {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  border-radius: 7px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #efc81a;
+}
+.hero .button button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  width: 100%;
+  height: 48px;
+  border-radius: 7px;
+}
+
+/* this is  */
+/* section footer  */
+.container .footer {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #efc81a;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.footer .main-footer {
+  top: 10px;
+  position: absolute;
+  text-align: center;
+}
+.footer .main-footer .first {
+  font-size: 30px;
+  color: #2e266f;
+}
+.footer .main-footer .second {
+  color: #707070;
+}
+.footer .main-footer .second h5 {
+  font-size: 15px;
+}
+.footer .end {
+  position: absolute;
+  left: 425px;
+  bottom: 20px;
+}
+.footer .end ul {
+  display: flex;
+}
+.footer .end ul li {
+  list-style-type: none;
+  margin: 10px 22px;
+}
+.footer .end ul li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #707070;
+}

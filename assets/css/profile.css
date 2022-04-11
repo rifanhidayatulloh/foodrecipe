@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+/* this is  */
+/* navbar */
+.container .navbar {
+  z-index: 9999;
+  display: flex;
+  width: 100%;
+  position: absolute;
+}
+.container .navbar a {
+  text-decoration: none;
+}
+.container .navbar .primary-menu {
+  width: 80%;
+}
+.container .navbar .primary-menu ul {
+  display: flex;
+}
+.container .navbar .primary-menu ul li {
+  margin: 10px 35px;
+}
+.container .navbar .primary-menu ul li a {
+  color: #2e266f;
+}
+.navbar .primary-menu ul li a:visited {
+  text-decoration: underline;
+}
+
+/* section 1  */
+/* top main  */
+.container .top-main {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 70px;
+}
+.container .top-main .profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 70px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.container .top-main .icon {
+  width: 1px;
+  height: 2px;
+  position: absolute;
+  top: 250px;
+  right: 620px;
+  cursor: pointer;
+}
+.container .top-main .icon img {
+  width: 27px;
+  height: 27px;
+}
+
+/* section 1  */
+/* button main  */
+.container .button-main {
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.container .button-main .title ul {
+  display: flex;
+  position: absolute;
+  left: 50px;
+}
+.container .button-main .title ul li {
+  margin-right: 50px;
+}
+.button-main .title ul li h3 {
+  color: #666666;
+  cursor: pointer;
+}
+.button-main .title ul li h3:active {
+  color: black;
+}
+.container .button-main .title .border {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  border-bottom: 1px solid #dfdfdf;
+}
+.container .button-main .icon {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.button-main .icon .image-1 img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 120px;
+  left: 83px;
+}
+.button-main .icon .image-1 h1 {
+  position: absolute;
+  width: 50px;
+  top: 230px;
+  left: 90px;
+  color: #ffffff;
+}
+.button-main .icon .image-2 img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 120px;
+  left: 420px;
+}
+.button-main .icon .image-2 h1 {
+  position: absolute;
+  width: 50px;
+  top: 230px;
+  left: 430px;
+  color: #ffffff;
+}
+
+/* this is  */
+/* section footer  */
+.container .footer {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #efc81a;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.footer .main-footer {
+  top: 10px;
+  position: absolute;
+  text-align: center;
+}
+.footer .main-footer .first {
+  font-size: 30px;
+  color: #2e266f;
+}
+.footer .main-footer .second {
+  color: #707070;
+}
+.footer .main-footer .second h5 {
+  font-size: 15px;
+}
+.footer .end {
+  position: absolute;
+  left: 425px;
+  bottom: 20px;
+}
+.footer .end ul {
+  display: flex;
+}
+.footer .end ul li {
+  list-style-type: none;
+  margin: 10px 22px;
+}
+.footer .end ul li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #707070;
+}

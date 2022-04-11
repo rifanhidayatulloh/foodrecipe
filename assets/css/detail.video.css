@@ -1,0 +1,126 @@
+/* body {
+  height: 1000vh;
+} */
+/* this is  */
+/* navbar */
+.container-fluid .navbar {
+  z-index: 9999;
+  display: flex;
+  width: 100%;
+  position: fixed;
+}
+.container-fluid .navbar a {
+  text-decoration: none;
+}
+.container-fluid .navbar .primary-menu {
+  width: 80%;
+}
+.container-fluid .navbar .primary-menu ul {
+  display: flex;
+}
+.container-fluid .navbar .primary-menu ul li {
+  margin: 10px 35px;
+}
+.container-fluid .navbar .primary-menu ul li a {
+  color: #2e266f;
+}
+.navbar .primary-menu ul li a:visited {
+  text-decoration: underline;
+}
+/* -----  */
+.container-fluid .row .col-1 {
+  height: 100vh;
+  width: 3%;
+}
+
+/* this is  */
+/* right content */
+.container-fluid .row .col-8 {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  top: 30px;
+  left: 50px;
+}
+.container-fluid .row .col-8 .img-1 img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.container-fluid .row .col-8 .ic-1 img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 225px;
+  left: 425px;
+  cursor: pointer;
+}
+.container-fluid .row .col-8 .ic-2 img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 410px;
+  left: 780px;
+  cursor: pointer;
+}
+.container-fluid .row .col-8 .line-point {
+  width: 620px;
+  border: 2px solid #ff0000;
+  position: absolute;
+  top: 440px;
+}
+.container-fluid .row .col-8 h5 {
+  width: 350px;
+}
+
+/* this is  */
+/* left content */
+.container-fluid .row .col-3 {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  top: 50px;
+}
+.container-fluid .row .col-3 .step-5 img {
+  width: 320px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container-fluid .row .col-3 .step-5 h6 {
+  width: 320px;
+  margin: 0px;
+  cursor: pointer;
+}
+.container-fluid .row .col-3 .step-6 img {
+  width: 320px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container-fluid .row .col-3 .step-6 h6 {
+  width: 320px;
+  margin: 0px;
+  cursor: pointer;
+}
+.container-fluid .row .col-3 .step-7 img {
+  width: 320px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container-fluid .row .col-3 .step-7 h6 {
+  width: 320px;
+  margin: 0px;
+  cursor: pointer;
+}

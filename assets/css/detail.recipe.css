@@ -1,0 +1,244 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+/* this is  */
+/* navbar */
+.container .navbar {
+  z-index: 9999;
+  display: flex;
+  width: 100%;
+  position: absolute;
+}
+.container .navbar a {
+  text-decoration: none;
+}
+.container .navbar .primary-menu {
+  width: 80%;
+}
+.container .navbar .primary-menu ul {
+  display: flex;
+}
+.container .navbar .primary-menu ul li {
+  margin: 10px 35px;
+}
+.container .navbar .primary-menu ul li a {
+  color: #2e266f;
+}
+.navbar .primary-menu ul li a:visited {
+  text-decoration: underline;
+}
+
+/* this is  */
+/* section 1  */
+.container .main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.container .main .jumbotron {
+  text-align: center;
+}
+.container .main .jumbotron h1 {
+  color: #2e266f;
+  margin-bottom: 30px;
+}
+.container .main .jumbotron .main-content img {
+  width: 650px;
+  height: 450px;
+  object-fit: cover;
+}
+.container .main .jumbotron .icon-1 img {
+  position: absolute;
+  background-color: #efc81a;
+  padding: 10px;
+  border-radius: 10px;
+  top: 530px;
+  right: 430px;
+  cursor: pointer;
+}
+.container .main .jumbotron .icon-2 img {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  top: 530px;
+  right: 370px;
+  cursor: pointer;
+}
+/* this is  */
+/* section 2  */
+.container .detail-main {
+  display: flex;
+  flex-direction: column;
+  height: 140vh;
+  width: 100%;
+  position: relative;
+}
+.detail-main .jumbotron {
+  position: relative;
+}
+.detail-main .jumbotron h1 {
+  color: #3f3a3a;
+  position: absolute;
+  left: 200px;
+}
+.detail-main .jumbotron ul {
+  position: absolute;
+  top: 50px;
+  left: 160px;
+}
+.detail-main .jumbotron ul li {
+  list-style-type: none;
+  color: #3f3a3a;
+  width: 330px;
+  font-size: larger;
+}
+.detail-main .jumbotron .content h1 {
+  color: #3f3a3a;
+  position: absolute;
+  width: 400px;
+  top: 250px;
+}
+.detail-main .jumbotron .icon button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: #efc81a;
+  border: none;
+  border-radius: 13px;
+  top: 330px;
+  left: 200px;
+}
+.detail-main .jumbotron .icon button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+.detail-main .jumbotron .icon button a img {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+}
+.detail-main .jumbotron .comment {
+  position: absolute;
+  top: 430px;
+  left: 200px;
+}
+.detail-main .jumbotron .comment .input-comment {
+  resize: none;
+  width: 900px;
+  height: 200px;
+  border: none;
+  border-radius: 13px;
+  background-color: #f6f5f4;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.detail-main .jumbotron .comment .input-comment:focus {
+  outline: none;
+  border: 2px double #efc81a;
+}
+.detail-main .jumbotron .send button {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  background-color: #efc81a;
+  border: none;
+  border-radius: 13px;
+  top: 680px;
+  left: 550px;
+}
+.detail-main .jumbotron .send button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  border-radius: 13px;
+  text-decoration: none;
+  background-color: #efc81a;
+}
+.detail-main .jumbotron .list-comment h1 {
+  color: #3f3a3a;
+  position: absolute;
+  top: 730px;
+}
+.detail-main .jumbotron .profil-user img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  position: absolute;
+  top: 800px;
+  left: 200px;
+  cursor: pointer;
+}
+.detail-main .jumbotron .profil-user .comment-text {
+  top: 810px;
+  left: 270px;
+  position: absolute;
+}
+.jumbotron .profil-user .comment-text h4 {
+  margin: 0px 0px;
+  cursor: pointer;
+}
+.jumbotron .profil-user .comment-text p {
+  margin: 0px 0px;
+}
+/* this is  */
+/* section footer  */
+.container .footer {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #efc81a;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.footer .main-footer {
+  top: 10px;
+  position: absolute;
+  text-align: center;
+}
+.footer .main-footer .first {
+  font-size: 30px;
+  color: #2e266f;
+}
+.footer .main-footer .second {
+  color: #707070;
+}
+.footer .main-footer .second h5 {
+  font-size: 15px;
+}
+.footer .end {
+  position: absolute;
+  left: 425px;
+  bottom: 20px;
+}
+.footer .end ul {
+  display: flex;
+}
+.footer .end ul li {
+  list-style-type: none;
+  margin: 10px 22px;
+}
+.footer .end ul li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #707070;
+}
